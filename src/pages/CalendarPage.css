@@ -1,0 +1,29 @@
+.fc-daygrid-day-frame {
+  position: relative;
+  min-height: 200px;
+  box-sizing: border-box;
+  padding-bottom: 26px;
+  overflow: hidden;
+}
+
+.vacation-cell-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.vacation-cell-event {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2px 4px;
+  overflow: hidden;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  background-color: #757575;
+}
